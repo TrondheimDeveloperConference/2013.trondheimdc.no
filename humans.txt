@@ -1,0 +1,24 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM    
+	Art Director: Klaus Nystad
+	Art Director: Rolf Anders Storeset
+	 
+	Developer: Pål Eirik Strøm
+	Twitter: @peirix
+	Web: flavors.me/peirix
+
+	Front end developer: Hege Røkenes
+	Twitter: @hegerokenes
+	Web: hege.rokenes.com
+
+	Location: Trondheim, Norway 
+
+# THANKS
+
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr

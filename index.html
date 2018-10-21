@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="nb-no" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="nb-no" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="nb-no" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="nb-no" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Trondheim Developer Conference</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Utviklerkonferanse i Trondheim 28. oktober 2013" />        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link type="text/plain" rel="author" href="https://2013.trondheimdc.no/humans.txt" />
+        <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/foredragsholdere.css"> 
+        <link rel="stylesheet" href="css/program.css"> 
+        <link rel="stylesheet" href="css/fonts/style.css">
+		<script type="text/javascript" src="//use.typekit.net/wts8ijn.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="js/jquery.animate-enhanced.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/foredragsholdere.js"></script>
+        <script src="js/pamelding.js"></script>
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> or <a href="https://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="OuterWrapper" name="OuterWrapper">
+            <header id="Masthead">
+                <div class="inner">
+                    <a href="#OuterWrapper">
+                        <hgroup class="realFont">
+                            <h1>Trondheim Developer Conference</h1>
+                            <h2>28. oktober 2013</h2>
+                        </hgroup>
+                        <img src="img/site_logo.png" alt="Logo Trondheim Developer Conference" />
+                    </a>
+                    <!--<a href="#Paamelding" id="Challange" onClick="_gaq.push(['_trackEvent', 'Klikk', 'Hurtiglenke', 'Meld deg på idag']);">Meld deg på idag!</a>-->
+                    <hr/ >
+                <div>
+            </header>
+
+            <nav id="MainNav">
+                <ul class="cleanlist">
+                    <li>
+                        <a href="#Program" title="Se årets program" id="item-1" onClick="_gaq.push(['_trackEvent', 'Klikk', 'Meny', 'Hva']);">Hva</a>
+                    </li>
+                    <li>
+                        <a href="#Foredragsholdere" title="Se hvem som kommer" id="item-4" onClick="_gaq.push(['_trackEvent', 'Klikk', 'Meny', 'Hvem']);">Hvem</a>
+                    </li>
+                    <li>
+                        <a href="#Clarion" title="Finn ut hvor det er" id="item-2" onClick="_gaq.push(['_trackEvent', 'Klikk', 'Meny', 'Hvor']);">Hvor</a>
+                    </li>
+                    <li>
+                        <a href="#Sponsorer" title="Bli sponsor - se mulighetene" id="item-5" onClick="_gaq.push(['_trackEvent', 'Klikk', 'Meny', 'Sponsorer']);">Sponsorer</a>
+                    </li>
+                </ul>
+            </nav>
+            <section>
+                <div class="inner">
+                    <div class="offsetRight realFont">
+                        <h2>Takk</h2>
+                        <p>Årets konferanse var utsolgt med 430 deltakere, 37 foredragsholdere og 17 sponsorer. Programkomiteen ønsker å takke alle som deltok og alle de som har bidratt til å realisere årets konferanse. Legg gjerne til bildene din i vår <a href="https://www.flickr.com/groups/trondheimdc/pool/with/10537625646/#photo_10537625646">flickr gruppe</a>, eller tag de med #tdconf i andre kanaler.</p>
+                        <p>Vi håper på å se deg igjen 27. oktober 2014</p>
+                    </div>
+                </div>
+            </section>
+            <section id="Sponsorer" class="realFont" name="Sponsorer">
+                <div class="inner"> 
+                    <div class="offsetRight realFont">
+                        <h3>Takk til årets utstillere og sponsorer</h3>
+                    </div>
+                </div>
+                <ul id="SponsorList">
+                    <li>
+                        <a href="https://www.bitreactive.no" title="Gå til nettsidene til Bit Reactive">
+                            <img src="img/sponsorlogos/bitreactive.jpg" alt="logo Bit Reactive">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.capgemini.no" title="Gå til nettsidene til Cap Gemini">
+                            <img src="img/sponsorlogos/capgemini.png" alt="logo Cap Gemini">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.itema.no" title="Gå til nettsidene til Itema">
+                            <img src="img/sponsorlogos/itema.png" alt="logo Itema">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dips.no" title="Gå til nettsidene til Dips">
+                            <img src="img/sponsorlogos/dips.png" alt="logo Disps">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bekk.no" title="Gå til nettsidene til Bekk">
+                            <img src="img/sponsorlogos/bekk.png" alt="logo Bekk">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dataforeningen.no/" title="Gå til nettsidene til dataforeningen">
+                            <img src="img/sponsorlogos/dnd.jpg" alt="logo Dataforeningen">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.webstep.no" title="Gå til nettsidene til webstep">
+                            <img src="img/sponsorlogos/webstep.png" alt="logo Webstep">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dinerp.no" title="Gå til nettsidene til Din ERP">
+                            <img src="img/sponsorlogos/dinerp.png" alt="logo DIN Erp">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.glasspaper.no" title="Gå til nettsidene til Glasspaper">
+                            <img src="img/sponsorlogos/glasspaper.png" alt="logo Glasspaper">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.inmeta.no" title="Gå til nettsidene til Inmeta">
+                            <img src="img/sponsorlogos/inmeta.png" alt="logo Inmeta">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bouvet.no" title="Gå til nettsidene til Bouvet">
+                            <img src="img/sponsorlogos/bouvet.png" alt="logo Bouvet">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.fundator.no" title="Gå til nettsidene til Fundator">
+                            <img src="img/sponsorlogos/fundator.png" alt="logo Fundator">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.kantega.no" title="Gå til nettsidene til Kantega">
+                            <img src="img/sponsorlogos/kantega.png" alt="logo Kantega">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.acando.no" title="Gå til nettsidene til Acando">
+                            <img src="img/sponsorlogos/acando.png" alt="logo Acando">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.evry.no" title="Gå til nettsidene til Evry">
+                            <img src="img/sponsorlogos/evry.png" alt="logo Evry">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.zedge.net" title="Gå til nettsidene til Zedge">
+                            <img src="img/sponsorlogos/zedge.png" alt="logo Zedge">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.microsoft.no" title="Gå til nettsidene til Microsoft">
+                            <img src="img/sponsorlogos/microsoft.png" alt="logo Microsoft">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.signicat.no" title="Gå til nettsidene til Signicat">
+                            <img src="img/sponsorlogos/signicat.png" alt="logo Signicat">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.programutvikling.no" title="Gå til nettsidene til Programutvikling">
+                            <img src="img/sponsorlogos/programutvikling.png" alt="logo Programutvikling">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.bdo.no" title="Gå til nettsidene til Bdo">
+                            <img src="img/sponsorlogos/bdo.jpg" alt="logo Bdo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.powel.no" title="Gå til nettsidene til Powel">
+                            <img src="img/sponsorlogos/powel.png" alt="logo Powel">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="Program" name="Program" class="realFont">
+                <div class="inner">
+                    <div class="offsetRight realFont">
+                        <h2>Program 2013</h2>
+                        <p>Lenker til presentasjoner vil fortløpende bli lagt ut per foredrag i programmet, etterhvert som foredragsholdere offentliggjør disse.</p>
+                    </div>
+                </div>
+                
+                <script type="text/html" id="slotTemplate">
+                	<ul>
+                		<li class="slot">
+                			<%= formatTime(starts) %><span class="hyphen">-</span><%= formatTime(ends) %>
+                		</li>
+                	</ul>
+                </script>
+                <script type="text/html" id="slotNoSessionTemplate">
+                	<li class="length<%= getTimeDifference(starts, ends) %>">
+                		<div class="sessionContent"><%= title %></div>
+                	</li>
+                </script>
+                <script type="text/html" id="slotSessionTemplate">
+                	<li class="length<%= getTimeDifference(starts, ends) %> track<%= track %>">
+                        <div class="sessionContent">
+                            <a title="<%= title %>" class="session"><%= track %>: <%= title %></a>                            
+                            <span class="speaker"><%= speaker %></span>
+                        </div>
+                    </li>
+                </script>
+
+                 <script type="text/html" id="slotSpeakerDetailsTemplate">
+                    <div class="fulldetailview">
+                        <div class="content">
+                            <small class="realFont time"><%= formatTime(starts) %>- <%= formatTime(ends) %></small>
+                            <h2><%= title %> <small><%= speaker %></small></h2>
+                            <div>
+								<%= abstract %>
+                            </div>
+                        </div>
+                    </div>
+                </script>
+                <script type="text/html" id="slotSpeakerDetailAboutTemplate">
+                    <hr/>
+                    <h3><%= name %></h3>
+                    <div>
+                        <p><%= about %></p>
+                    </div>
+                </script>
+                <div id="sessionPopup"></div>
+                <div id="ProgramWrapper"></div>
+            </section>
+
+            <section id="Foredragsholdere" name="Foredragsholdere">
+                <div class="inner realFont">
+                    <div class="offsetRight">
+                        <h2>Hvem</h2>
+                        <p>Flere spennende foredragsholdere, både lokale, nasjonale og internasjonale fagfolk.</p>
+                        <a class="speakerNav prev">Bla venstre</a>
+                        <a class="speakerNav next">Bla høyre</a>
+                    </div>
+                </div>
+                <script type="text/html" id="speakerTemplate">
+                	<li>
+                		<img src="<%= image %>" alt="<%= name %>">
+                		<h3><%= name %></h3>
+                		<div class="content">
+                			<p><%= about %></p>
+                		</div>
+                	</li>
+                </script>
+                <script type="text/html" id="sessionTemplate">
+                	<h4><%= title %></h4>
+                	<div>
+                		<span>Tid: <time><%= formatTime(starts) %> - <%= formatTime(ends) %></time></span>
+                		<span>Spor: <%= track %> </span>
+                	</div>
+                	<p><%= abstract %></p>
+                </script>
+                <div id="SpeakerList">
+                    
+                </div>  
+            </section>
+                          
+            <section id="Clarion" name="Clarion">
+                <div class="inner realFont">
+                    <div class="offsetRight">
+                        <h2>Clarion hotel & congress</h2>
+                        <img src="img/clarion_hotel_brattora.JPG" alt="Clarion Hotel Brattøra" class="gradient" />
+                        <p class="ingress">Større kapasitet, mere luft og mindre klamt.<br/>
+                            Clarion ligger nydelig til i vannkanten av Trondheim. Buss nr. 3, 19 og 46 går fra Munkegata i sentrum. Eller spaser fra Solsiden langs elven mot piren.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="Pagefooter">
+                <div class="inner realFont">
+                    <div class="offsetRight">
+                        <small>Trondheim Developer Conference er et samarbeid mellom fagmiljøene i Trondheim</small>
+                        <ul class="cleanlist horList">
+                            <li><a href="https://www.nnug.no/Avdelinger/Trondheim/" title="Jeg vil vite mer om NNUG"><img src="img/logo_nnug.png" alt="Logo NNUG Trondheim" /></a></li>                           
+                            <li><a href="https://www.dataforeningen.no/" title="Jeg vil vite mer om Dataforeningen"><img src="img/logo_dataforeningen.png" alt="Logo Den Norske Dataforeningen" /></a></li>
+                            <li><a href="https://www.meetup.com/trondheim-smidig/" title="Jeg vil vite mer om Trondheim XP & Agile"><img src="img/logo_xpagile.png" alt="Logo Trondheim XP & Aglie" /></a></li>
+                            <li><a href="https://www.meetup.com/grensesnittet/" title="Jeg vil vite mer om Grensesnittet"><img src="img/logo_grensesnittet.gif" alt="Logo JavaBin Trondheim" /></a></li>
+                            <li class="last"><a href="https://www.java.no" title="Jeg vil vite mer om JavaBin"><img src="img/logo_javabin.png" alt="" /></a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="offsetRight realFont">
+                        <nav>
+                            <a href="/presse/index.html" title="Pressematriell finner du her">Presse</a>
+                            <a href="/om-oss/index.html" title="Mer info om ildsjelene">Om TDC</a>
+                        </nav>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/data.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-31433576-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>

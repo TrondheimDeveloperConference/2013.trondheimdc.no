@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Redacted';
+    src: url('redacted-script-regular-webfont.eot');
+    src: url('redacted-script-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('redacted-script-regular-webfont.woff') format('woff'),
+         url('redacted-script-regular-webfont.svg#BLOKKNeue-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
